@@ -1,0 +1,9 @@
+# Upstream klonu ve onun .env / data / logs içeriği (parola, anahtarlar) asla commit edilmez
+upstream/
+.env
+*.secret
+# Ham çalıştırma logları yerelde kalır; özet rapor commit edilir
+reports/*/
+.DS_Store
+reports/.preexisting-images
+.vscode/
